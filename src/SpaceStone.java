@@ -16,6 +16,7 @@ public class SpaceStone implements IStone{
         if(spaceStone == null){
             spaceStone = new SpaceStone();
             spaceStone.setStoneLocation("Earth");
+            System.out.println("the space stone has appeared");
         }
 
         return spaceStone;
